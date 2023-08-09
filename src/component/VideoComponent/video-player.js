@@ -47,7 +47,7 @@ const VideoPlayer = ({ isBufferingCallBack, videoRefHandler, volume, src }) => {
 			muted={volume}
 			playInBackground={true}
 			playWhenInactive={true} //Determine whether the media should continue playing when notifications or the Control Center are in front of the video.
-			poster={preloadingloadingImage}
+			poster={videoUrl}
 			posterResizeMode='cover'
 			resizeMode='cover'
 			// onPlaybackRateChange={({ playbackRate }) => {
